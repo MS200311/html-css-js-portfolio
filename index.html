@@ -13,7 +13,7 @@
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
+                <li><a href="#certifications">Certifications</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -30,16 +30,17 @@
             </div>
         <div class="menu-links">
             <li><a href="#about" onclick="toggleMenu()">About</a></li>
-            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#certifications" onclick="toggleMenu()">Certifications</a></li>
             <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
             <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
         </div>
     </nav>
 
+    <!--Profile section-->
     <section id="profile">
         <div class="section__pic-container">
-            <img src="./assets/profile-pic.png" alt="Mohan Abeyrathne profile picture">
+            <img src="./assets/profile-pic.png" alt="Mohan Abeyrathne profile picture" class="profile-pic">
         </div>
         <div class="section__text">
             <p class="section__text__p1">Hello, I'm</p>
@@ -69,6 +70,57 @@
         </div>
 
     </section>
+
+    <!--About section-->
+        <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+            <img
+                src="./assets/about-pic.png"
+                alt="Profile picture"
+                class="about-pic"
+            />
+            </div>
+            <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                <img
+                    src="./assets/experience.png"
+                    alt="Experience icon"
+                    class="icon"
+                />
+                <h3>Interests & Focus Areas</h3>
+                <p>Data Science<br>AI & Machine Learning<br>Tech Entrepreneurship</p>                </div>
+                <div class="details-container">
+                <img
+                    src="./assets/education.png"
+                    alt="Education icon"
+                    class="icon"
+                />
+                <h3>Education</h3>
+                <p>BSc (Hons) in Data Science<br>NSBM Green University</p>                </div>
+            </div>
+            <div class="text-container">
+                <p>
+                <br>As a Data Science undergraduate, I am deeply interested in 
+                data-driven problem solving, AI, and machine learning.
+                I am currently building my technical foundation through 
+                academic studies, certifications, and self-learning.
+                </p>
+            </div>
+            </div>
+        </div>
+        <img
+            src="./assets/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#experience'"
+        />
+        </section>
+
+
     <script src="script.js"></script>
 </body>
 </html>
