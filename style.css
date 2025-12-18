@@ -382,6 +382,11 @@
     border-color: rgb(163, 163, 163);
     }
 
+    .color-container:hover{
+        background: rgb(163, 163, 163);
+        color: white;
+    }
+
     /* CONTACT */
 
     #contact {
