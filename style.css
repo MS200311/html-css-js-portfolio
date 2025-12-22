@@ -398,7 +398,7 @@
 
     .contact-info-upper-container {
     display: flex;
-    flex-direction: grid;
+    flex-direction: row;
     justify-content: center;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
